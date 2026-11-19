@@ -59,7 +59,7 @@ def verify(call):
 
 @bot.message_handler(commands=["admin"])
 def admin(message):
-    if message.from_user.id == 0:
+    if message.from_user.id == 6091788830:
         bot.send_message(message.chat.id, "پنل مدیریت")
     else:
         bot.send_message(message.chat.id, "شما دسترسی مدیریت ندارید.")
